@@ -20,10 +20,9 @@ Para utilizar este servicio, necesitas tener instalados los siguientes requisito
 
 Primero, clona el repositorio en tu máquina local:
 
-```bash
-git clone https://github.com/JarochMon/Api.git
+$ git clone https://github.com/JarochMon/Api.git
 cd Api
-
+   
 ## Uso (Producción)
 
 Una vez que el contenedor esté en funcionamiento, puedes interactuar con la API a través de los siguientes endpoints.
@@ -36,7 +35,6 @@ Una vez que el contenedor esté en funcionamiento, puedes interactuar con la API
 
 **Ejemplo de Solicitud:**
 
-```bash
 curl http://localhost:5000/
 
 ## Uso (Desarrollo)
