@@ -21,8 +21,8 @@ Para utilizar este servicio, necesitas tener instalados los siguientes requisito
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/JarochMon/Api.git
+cd Api
 
 ## Uso (Producción)
 
