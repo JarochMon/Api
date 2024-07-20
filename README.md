@@ -23,3 +23,29 @@ Primero, clona el repositorio en tu máquina local:
 ```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
+
+## Uso (Producción)
+
+Una vez que el contenedor esté en funcionamiento, puedes interactuar con la API a través de los siguientes endpoints.
+
+### Endpoint de Bienvenida
+
+- **URL**: `/`
+- **Método**: `GET`
+- **Descripción**: Muestra una página de bienvenida.
+
+**Ejemplo de Solicitud:**
+
+```bash
+curl http://localhost:5000/
+
+## Uso (Desarrollo)
+
+Para el desarrollo, puedes seguir estos pasos:
+
+1. **Modificar el Código**: Realiza cambios en el archivo `app.py` y otros archivos del proyecto según sea necesario.
+
+2. **Rebuild la Imagen Docker**: Después de hacer cambios en el código, reconstruye la imagen Docker para reflejar las actualizaciones.
+
+   ```bash
+   docker build -t prediccion-api .
